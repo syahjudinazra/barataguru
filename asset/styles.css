@@ -19,10 +19,18 @@
     line-height: 36px;
 }
 
-.header-title h1 {}
+.header-title a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.header-title:hover a {
+    color: #ffff;
+    text-decoration: none;
+}
 
 #dashboard {
-    background-color: #E5E5E5;
+    background-color: #F4F4F4;
     height: 100vh;
 }
 
@@ -53,6 +61,8 @@
     background-color: #16ABF8 !important;
 }
 
+/* Dashboard-activity */
+
 .card-title {
     font-family: 'Poppins';
     font-style: normal;
@@ -80,4 +90,61 @@
 .card-rounder {
     width: -webkit-fill-available;
     height: 234px;
+}
+
+/* new activity */
+
+.image-content {
+    text-align: center;
+    padding: 5%;
+}
+
+.dashboard-back i, .dashboard-back h1 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    display: inline-block;
+}
+
+.dashboard-back a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.dashboard-back:hover a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.dashboard-back h1 {
+    margin: 2rem;
+}
+
+.edit-activity {
+    color: #888888;
+}
+
+/* modal */
+
+.input-activity {
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: -15px;
+}
+
+.save-button{
+    border-radius: 45px !important;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+}
+
+.circle-drop {
+    display: inline-block;
+}
+
+.circle-drop i {
+    font-size: 14px;
 }
